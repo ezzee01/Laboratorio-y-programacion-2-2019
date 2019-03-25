@@ -1,0 +1,6 @@
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\bin\Debug\Ejercicio_10.exe.config
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\bin\Debug\Ejercicio_10.exe
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\bin\Debug\Ejercicio_10.pdb
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\obj\Debug\Ejercicio_10.csproj.CoreCompileInputs.cache
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\obj\Debug\Ejercicio_10.exe
+C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_10\obj\Debug\Ejercicio_10.pdb
