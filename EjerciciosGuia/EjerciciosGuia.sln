@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 15 for Windows Desktop
+# Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_01", "Ejercicio_01\Ejercicio_01.csproj", "{31480ECE-5516-40E6-867D-CA6203459547}"
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_09", "Ejercicio_09\Ejercicio_09.csproj", "{D411E7EE-0211-460C-B5BF-F99763B741D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_10", "Ejercicio_10\Ejercicio_10.csproj", "{C63F4326-1283-41DA-9970-D0FED812620D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_16", "Ejercicio_16\Ejercicio_16.csproj", "{9BE6C400-977B-4718-9FC5-9A03E6B26BF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C63F4326-1283-41DA-9970-D0FED812620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63F4326-1283-41DA-9970-D0FED812620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63F4326-1283-41DA-9970-D0FED812620D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE6C400-977B-4718-9FC5-9A03E6B26BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE6C400-977B-4718-9FC5-9A03E6B26BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE6C400-977B-4718-9FC5-9A03E6B26BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE6C400-977B-4718-9FC5-9A03E6B26BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
