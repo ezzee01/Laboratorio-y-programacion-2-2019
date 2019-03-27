@@ -12,40 +12,47 @@ namespace Ejercicio_08
     {
       Console.Title = "Ejercicio Nro 08";
 
-      int valorHora;
-      string nombre;
-      int antiguedad;
-      int cantHorasTrabajadas;
-      int cantEmpleados = 0;
-      string respuesta = "s";
-      float valorACobrar = 0;
-      float descuentos;
-      float valorCobrado;
-      string resultadoMostrar;
+      int valorHora = 0;
+      String nombre = "";
+      int antiguedad = 0;
+      int horasTrabajadas = 0;
+      float totalBruto = 0;
+      int porcentajeDescuento = 13;
+      float descuento = 0;
+      float totalNeto = 0;
+      string respuesta;
 
       do
       {
-        Console.Write("Ingrese nombre del empleado: ");
+        Console.Write("Nombre: ");
         nombre = Console.ReadLine();
-        Console.Write("Ingrese antiguedad: ");
-        antiguedad = int.Parse(Console.ReadLine());
-        Console.Write("Ingrese valor hora: ");
-        valorHora = int.Parse(Console.ReadLine());
-        Console.Write("Ingrese cantidad de horas trabajadas en el mes: ");
-        cantHorasTrabajadas = int.Parse(Console.ReadLine());
+        Console.Write("Valor hora: ");
+        int.TryParse(Console.ReadLine(), out valorHora);
+        Console.Write("Antiguedad: ");
+        int.TryParse(Console.ReadLine(), out antiguedad);
+        Console.Write("Horas Trabajadas: ");
+        int.TryParse(Console.ReadLine(), out horasTrabajadas);
 
-        cantEmpleados++;
+        totalBruto = valorHora * horasTrabajadas + antiguedad * 150;
+        descuento = totalBruto * porcentajeDescuento / 100;
+        totalNeto = totalBruto - descuento;
 
-        valorACobrar = (float)(valorHora * cantHorasTrabajadas) + (antiguedad * 150);
-        descuentos = (float)valorACobrar * 13 / 100;
-        valorCobrado = valorACobrar - descuentos;
-        Console.WriteLine("Nombre-----Antiguedad-----Valor Hora-----Total Bruto-----Desc-----Total Neto");
-        Console.WriteLine("{0}     {1}              {2}             {3}      {4}     {5}", nombre, antiguedad, valorHora, valorACobrar, descuentos, valorCobrado);
+        //Console.Clear();
+        Console.WriteLine("\n-------------RECIBO----------------\n" +
+                            "Nombre: {0}\n" +
+                            "Antiguedad: {1} años\n" +
+                            "Valor Hora: ${2}\n" +
+                            "Total Bruto: ${3}\n" +
+                            "Descuento: {4}% (${5})\n" +
+                            "Total Neto: ${6}\n" +
+                            "-----------------------------------"
+                            , nombre, antiguedad, valorHora, totalBruto, porcentajeDescuento, descuento, totalNeto);
 
-        Console.Write("Desea ingresar mas empleados?(S/N): ");
+
+        Console.Write("¿Desea ingresar otro empleado? (S/N): ");
         respuesta = Console.ReadLine().ToLower();
-        Console.Clear();
       } while (respuesta == "s");
+
 
       //Console.ReadKey();
     }

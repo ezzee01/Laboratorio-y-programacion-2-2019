@@ -5,3 +5,10 @@ C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_
 C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.csproj.CoreCompileInputs.cache
 C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.exe
 C:\Users\Eze\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\bin\Debug\Ejercicio_09.exe.config
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\bin\Debug\Ejercicio_09.exe
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\bin\Debug\Ejercicio_09.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.exe
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_09\obj\Debug\Ejercicio_09.pdb
