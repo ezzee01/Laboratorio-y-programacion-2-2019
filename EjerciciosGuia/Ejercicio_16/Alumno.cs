@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Ejercicio_16
@@ -10,27 +11,28 @@ namespace Ejercicio_16
   {
     private byte nota1;
     private byte nota2;
-    private byte notaFinal;
+    private float notaFinal;
     public string apellido;
     public string nombre;
     public int legajo;
-    public static string colegio;
-    static Random random;
+    Random final = new Random();
 
-    public Alumno(string apellido, string nombre)
-    {
-      this.nombre = nombre;
-      this.apellido = apellido;
-    }
-
-    static Alumno() //Es siempre publico sin visibilidad
-    {
-      colegio = "UTN"; //sin this
-      random = new Random();
-    }
+    //CON CONSTRUCTOR
+    //public Alumno(string apellido, string nombre, int legajo)
+    //{
+    //  this.nombre = nombre;
+    //  this.apellido = apellido;
+    //  this.legajo = legajo;
+    //}
 
     public void CalcularFinal()
-    { }
+    {
+      if (nota1 >= 4 && nota2 >= 4)
+      {
+        this.notaFinal = final.Next(1, 10);
+      }
+      else this.notaFinal = -1;
+    }
 
     public void Estudiar(byte notaUno, byte notaDos)
     {
@@ -40,8 +42,14 @@ namespace Ejercicio_16
 
     public string Mostrar()
     {
-      return this.legajo.ToString() + " " + this.apellido + " " + this.nombre + " " + colegio + (this.notaFinal == 11 ? "DESAPROBADO" : this.notaFinal.ToString()); //colegio sin this por ser estatico,
-      //(condicion ? "desaprobado": "aprobado")
+      string cadena = this.legajo.ToString() + "       " + this.apellido + "        " + this.nombre + "      ";
+
+      if (notaFinal != -1)
+      {
+        cadena += this.notaFinal.ToString();
+      }
+      else cadena += "Alumno desaprobado";
+      return cadena;
     }
   }
 }
