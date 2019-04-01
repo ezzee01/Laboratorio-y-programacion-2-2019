@@ -6,33 +6,35 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_13
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      Console.Title = "Ejercicio Nro 13";
+        static void Main(string[] args)
+        {
+            Console.Title = "Ejercicio Nro 13";
 
-      double numeroDecimal;
-      string numeroBinario;
-      double numeroEnDecimal;
-      string numeroEnBinario;
+            double numeroDecimal;
+            string numeroBinario;
+            double numeroEnDecimal;
+            string numeroEnBinario;
 
-      Console.Write("Ingrese numero decimal: ");
-      numeroDecimal = double.Parse(Console.ReadLine());
+            Console.Write("Ingrese numero decimal: ");
+            numeroDecimal = double.Parse(Console.ReadLine());
 
-      numeroEnBinario = Conversor.DecimalBinario(numeroDecimal);
+            numeroEnBinario = Conversor.DecimalBinario(numeroDecimal);
 
-      Console.WriteLine("El numero decimal en binario es: {0}", numeroEnBinario);
+            Console.WriteLine("El numero decimal en binario es: {0}", numeroEnBinario);
 
-      Console.Write("Ingrese numero binario: ");
+            Console.WriteLine("");
 
-      numeroBinario = Console.ReadLine();
+            Console.Write("Ingrese numero binario: ");
 
-      numeroEnDecimal = Conversor.BinarioDecimal(numeroBinario);
+            numeroBinario = Console.ReadLine();
 
-      Console.WriteLine("El numero binario en decimal es: {0}", numeroEnDecimal);
+            numeroEnDecimal = Conversor.BinarioDecimal(numeroBinario);
 
-      Console.ReadKey();
+            Console.WriteLine("El numero binario en decimal es: {0}", numeroEnDecimal);
+
+            Console.ReadKey();
+        }
     }
-  }
 }
