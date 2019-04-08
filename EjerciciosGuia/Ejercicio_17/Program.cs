@@ -7,15 +7,18 @@ using Ejercicio_17_2;
 
 namespace Ejercicio_17
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      Console.Title = "Ejercicio Nro 17";
+        static void Main(string[] args)
+        {
+            Console.Title = "Ejercicio Nro 17";
+
+            Boligrafo boligrafo1 = new Boligrafo(100, ConsoleColor.Blue);
+            Boligrafo boligrafo2 = new Boligrafo(50, ConsoleColor.Red);
+            
 
 
-
-      Console.ReadKey();
+            Console.ReadKey();
+        }
     }
-  }
 }
