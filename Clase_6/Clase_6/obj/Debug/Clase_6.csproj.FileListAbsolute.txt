@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\Clase_6\Clase_6\bin\Debug\Clase_6.exe.config
+C:\Users\alumno\Desktop\Clase_6\Clase_6\bin\Debug\Clase_6.exe
+C:\Users\alumno\Desktop\Clase_6\Clase_6\bin\Debug\Clase_6.pdb
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.Properties.Resources.resources
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.exe
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.pdb
+C:\Users\alumno\Desktop\Clase_6\Clase_6\obj\Debug\Clase_6.frmRegistro.resources

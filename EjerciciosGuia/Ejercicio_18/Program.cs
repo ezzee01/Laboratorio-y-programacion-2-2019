@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +12,8 @@ namespace Ejercicio_18
         {
             Console.Title = "Ejercicio Nro 17";
 
-            Punto punto1 = new Punto(2, 5);
-            Punto punto2 = new Punto(4, 3);
+            Punto punto1 = new Punto(2, 0);
+            Punto punto2 = new Punto(5, 0);
 
             Rectangulo rectangulo = new Rectangulo(punto1, punto2);
 
