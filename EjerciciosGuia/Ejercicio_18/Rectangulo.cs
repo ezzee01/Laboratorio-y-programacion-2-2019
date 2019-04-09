@@ -17,8 +17,10 @@ namespace Ejercicio_18
 
     public Rectangulo(Punto vertice1, Punto vertice3)
     {
-      this.vertice1 = vertice1;
-      this.vertice3 = vertice3;
+      this.vertice1 = new Punto(vertice1.GetX(), vertice1.GetY());
+      this.vertice3 = new Punto(vertice3.GetX(), vertice3.GetY());
+      this.vertice2 = new Punto;
+      this.vertice4 = new Punto()
     }
 
     public float Area()
@@ -26,10 +28,10 @@ namespace Ejercicio_18
       float base1;
       float altura;
 
-      base1 = Math.Abs(vertice3.GetX()) - Math.Abs(vertice1.GetX());
-      altura = Math.Abs(vertice2.GetY()) - Math.Abs(vertice1.GetY());
+      base1 = Math.Abs(this.vertice3.GetX()) - Math.Abs(this.vertice1.GetX());
+      altura = Math.Abs(this.vertice2.GetY()) - Math.Abs(this.vertice1.GetY());
 
-      area = base1 * altura;
+      this.area = base1 * altura;
       return this.area;
     }
 
@@ -38,10 +40,10 @@ namespace Ejercicio_18
       float base1;
       float altura;
 
-      base1 = Math.Abs(vertice3.GetX()) - Math.Abs(vertice1.GetX());
-      altura = Math.Abs(vertice2.GetY()) - Math.Abs(vertice1.GetY());
+      base1 = Math.Abs(this.vertice3.GetX()) - Math.Abs(this.vertice1.GetX());
+      altura = Math.Abs(this.vertice2.GetY()) - Math.Abs(this.vertice1.GetY());
 
-      perimetro = (base1 + altura) * 2;
+      this.perimetro = (base1 + altura) * 2;
       return this.perimetro;
     }
   }

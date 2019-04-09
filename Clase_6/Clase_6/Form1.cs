@@ -12,6 +12,8 @@ namespace Clase_6
 {
   public partial class frmRegistro : Form
   {
+    StringBuilder sb = new StringBuilder();
+
     public frmRegistro()
     {
       InitializeComponent();
@@ -29,11 +31,22 @@ namespace Clase_6
 
     private void txtNombre_TextChanged(object sender, EventArgs e)
     {
+      string nombre;
       lblNombre.Visible = false;
       if (txtNombre.Text == "")
       {
         lblNombre.Visible = true;
       }
+      if (long.TryParse(txtNombre.Text, out long i) == false)
+      {
+        nombre = txtNombre.Text;
+        sb.AppendFormat("Nombre: {0}", nombre);
+        lblErrorNombre.Visible = false;
+      }
+      else
+      {
+        lblErrorNombre.Visible = true;
+      }      
     }
 
     private void lblNombre_Click(object sender, EventArgs e)
@@ -43,10 +56,21 @@ namespace Clase_6
 
     private void txtApellido_TextChanged(object sender, EventArgs e)
     {
+      string apellido;
       lblApellido.Visible = false;
       if (txtApellido.Text == "")
       {
         lblApellido.Visible = true;
+      }
+      if (long.TryParse(txtApellido.Text, out long i) == false)
+      {
+        apellido = txtApellido.Text;
+        sb.AppendFormat("Apellido: {0}", apellido);
+        lblErrorApellido.Visible = false;
+      }
+      else
+      {
+        lblErrorApellido.Visible = true;
       }
     }
 
@@ -57,16 +81,28 @@ namespace Clase_6
 
     private void btnContinuar_Click(object sender, EventArgs e)
     {
-
+      MessageBox.Show(sb.ToString());
     }
 
     private void txtDireccion_TextChanged(object sender, EventArgs e)
     {
+      string direccion;
       lblDireccion.Visible = false;
       if (txtDireccion.Text == "")
       {
         lblDireccion.Visible = true;
       }
+      if (txtDireccion.Text.Contains("@yahoo.com") == false)
+      {
+        direccion = txtDireccion.Text;
+        sb.AppendFormat("Direccion de correo: {0}@yahoo.com", direccion);
+        lblErrorDireccion.Visible = false;
+      }
+      else
+      {
+        lblErrorDireccion.Visible = true;
+      }
+      
     }
 
     private void lblDireccion_Click(object sender, EventArgs e)
@@ -81,10 +117,21 @@ namespace Clase_6
 
     private void txtNumero_TextChanged(object sender, EventArgs e)
     {
+      string numero;
       lblNumero.Visible = false;
       if (txtNumero.Text == "")
       {
         lblNumero.Visible = true;
+      }
+      if (txtNumero.Text.Length <= 10)
+      {
+        numero = txtNumero.Text;
+        sb.AppendFormat("Numero telefonico: {0}", numero);
+        lblErrorNumero.Visible = false;
+      }
+      else
+      {
+        lblErrorNumero.Visible = true;
       }
     }
 
@@ -130,14 +177,50 @@ namespace Clase_6
 
     private void txtContraseña_TextChanged(object sender, EventArgs e)
     {
+      string contraseña;
       lblContraseña.Visible = false;
       if (txtContraseña.Text == "")
       {
         lblContraseña.Visible = true;
       }
+      if (txtContraseña.Text.Length >= 6)
+      {
+        contraseña = txtContraseña.Text;
+        sb.AppendFormat("Contraseña: ******");
+        lblErrorContraseña.Visible = false;
+      }
+      else
+      {
+        lblErrorContraseña.Visible = true;
+      }
     }
 
     private void lblContraseña_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblErrorNumero_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblErrorContraseña_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblErrorDireccion_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblErrorNombre_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void lblErrorApellido_Click(object sender, EventArgs e)
     {
 
     }

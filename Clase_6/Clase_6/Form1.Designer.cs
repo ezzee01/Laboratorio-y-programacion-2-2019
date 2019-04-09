@@ -46,9 +46,15 @@ namespace Clase_6
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.grbSexo = new System.Windows.Forms.GroupBox();
-            this.rdbFemenino = new System.Windows.Forms.RadioButton();
-            this.rdbMasculino = new System.Windows.Forms.RadioButton();
             this.rdbOtros = new System.Windows.Forms.RadioButton();
+            this.rdbMasculino = new System.Windows.Forms.RadioButton();
+            this.rdbFemenino = new System.Windows.Forms.RadioButton();
+            this.lblDescripcionContra = new System.Windows.Forms.Label();
+            this.lblErrorNumero = new System.Windows.Forms.Label();
+            this.lblErrorContraseña = new System.Windows.Forms.Label();
+            this.lblErrorDireccion = new System.Windows.Forms.Label();
+            this.lblErrorNombre = new System.Windows.Forms.Label();
+            this.lblErrorApellido = new System.Windows.Forms.Label();
             this.grbSexo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +65,7 @@ namespace Clase_6
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(272, 47);
             this.btnContinuar.TabIndex = 13;
-            this.btnContinuar.Text = "Continuar";
+            this.btnContinuar.Text = "&Continuar";
             this.btnContinuar.UseVisualStyleBackColor = true;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
             // 
@@ -91,7 +97,7 @@ namespace Clase_6
             // 
             this.txtNombre.AccessibleDescription = "";
             this.txtNombre.AccessibleName = "";
-            this.txtNombre.Location = new System.Drawing.Point(31, 84);
+            this.txtNombre.Location = new System.Drawing.Point(31, 68);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 1;
@@ -100,7 +106,7 @@ namespace Clase_6
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(203, 82);
+            this.txtApellido.Location = new System.Drawing.Point(203, 66);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(100, 20);
             this.txtApellido.TabIndex = 2;
@@ -113,7 +119,7 @@ namespace Clase_6
             this.lblNombre.Enabled = false;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblNombre.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblNombre.Location = new System.Drawing.Point(36, 85);
+            this.lblNombre.Location = new System.Drawing.Point(36, 69);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(52, 15);
             this.lblNombre.TabIndex = 6;
@@ -127,7 +133,7 @@ namespace Clase_6
             this.lblApellido.Enabled = false;
             this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblApellido.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblApellido.Location = new System.Drawing.Point(209, 84);
+            this.lblApellido.Location = new System.Drawing.Point(209, 68);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(51, 15);
             this.lblApellido.TabIndex = 7;
@@ -136,7 +142,7 @@ namespace Clase_6
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(31, 128);
+            this.txtDireccion.Location = new System.Drawing.Point(29, 115);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(187, 20);
             this.txtDireccion.TabIndex = 3;
@@ -148,7 +154,7 @@ namespace Clase_6
             this.lblYahoo.BackColor = System.Drawing.SystemColors.Control;
             this.lblYahoo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lblYahoo.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblYahoo.Location = new System.Drawing.Point(221, 129);
+            this.lblYahoo.Location = new System.Drawing.Point(219, 116);
             this.lblYahoo.Name = "lblYahoo";
             this.lblYahoo.Size = new System.Drawing.Size(91, 17);
             this.lblYahoo.TabIndex = 9;
@@ -162,7 +168,7 @@ namespace Clase_6
             this.lblDireccion.Enabled = false;
             this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblDireccion.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblDireccion.Location = new System.Drawing.Point(36, 130);
+            this.lblDireccion.Location = new System.Drawing.Point(34, 117);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(117, 15);
             this.lblDireccion.TabIndex = 10;
@@ -186,7 +192,7 @@ namespace Clase_6
             this.lblContraseña.Enabled = false;
             this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblContraseña.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblContraseña.Location = new System.Drawing.Point(36, 202);
+            this.lblContraseña.Location = new System.Drawing.Point(37, 194);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(70, 15);
             this.lblContraseña.TabIndex = 12;
@@ -195,7 +201,7 @@ namespace Clase_6
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(31, 200);
+            this.txtContraseña.Location = new System.Drawing.Point(32, 192);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtContraseña.TabIndex = 5;
@@ -260,17 +266,17 @@ namespace Clase_6
             this.grbSexo.Text = "Sexo";
             this.grbSexo.Enter += new System.EventHandler(this.grbSexo_Enter);
             // 
-            // rdbFemenino
+            // rdbOtros
             // 
-            this.rdbFemenino.AutoSize = true;
-            this.rdbFemenino.Location = new System.Drawing.Point(116, 19);
-            this.rdbFemenino.Name = "rdbFemenino";
-            this.rdbFemenino.Size = new System.Drawing.Size(81, 19);
-            this.rdbFemenino.TabIndex = 11;
-            this.rdbFemenino.TabStop = true;
-            this.rdbFemenino.Text = "Femenino";
-            this.rdbFemenino.UseVisualStyleBackColor = true;
-            this.rdbFemenino.CheckedChanged += new System.EventHandler(this.rdbFemenino_CheckedChanged);
+            this.rdbOtros.AutoSize = true;
+            this.rdbOtros.Location = new System.Drawing.Point(216, 19);
+            this.rdbOtros.Name = "rdbOtros";
+            this.rdbOtros.Size = new System.Drawing.Size(54, 19);
+            this.rdbOtros.TabIndex = 12;
+            this.rdbOtros.TabStop = true;
+            this.rdbOtros.Text = "Otros";
+            this.rdbOtros.UseVisualStyleBackColor = true;
+            this.rdbOtros.CheckedChanged += new System.EventHandler(this.rdbOtros_CheckedChanged);
             // 
             // rdbMasculino
             // 
@@ -284,23 +290,99 @@ namespace Clase_6
             this.rdbMasculino.UseVisualStyleBackColor = true;
             this.rdbMasculino.CheckedChanged += new System.EventHandler(this.rdbMasculino_CheckedChanged);
             // 
-            // rdbOtros
+            // rdbFemenino
             // 
-            this.rdbOtros.AutoSize = true;
-            this.rdbOtros.Location = new System.Drawing.Point(216, 19);
-            this.rdbOtros.Name = "rdbOtros";
-            this.rdbOtros.Size = new System.Drawing.Size(54, 19);
-            this.rdbOtros.TabIndex = 12;
-            this.rdbOtros.TabStop = true;
-            this.rdbOtros.Text = "Otros";
-            this.rdbOtros.UseVisualStyleBackColor = true;
-            this.rdbOtros.CheckedChanged += new System.EventHandler(this.rdbOtros_CheckedChanged);
+            this.rdbFemenino.AutoSize = true;
+            this.rdbFemenino.Location = new System.Drawing.Point(116, 19);
+            this.rdbFemenino.Name = "rdbFemenino";
+            this.rdbFemenino.Size = new System.Drawing.Size(81, 19);
+            this.rdbFemenino.TabIndex = 11;
+            this.rdbFemenino.TabStop = true;
+            this.rdbFemenino.Text = "Femenino";
+            this.rdbFemenino.UseVisualStyleBackColor = true;
+            this.rdbFemenino.CheckedChanged += new System.EventHandler(this.rdbFemenino_CheckedChanged);
+            // 
+            // lblDescripcionContra
+            // 
+            this.lblDescripcionContra.AutoSize = true;
+            this.lblDescripcionContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblDescripcionContra.Location = new System.Drawing.Point(135, 194);
+            this.lblDescripcionContra.Name = "lblDescripcionContra";
+            this.lblDescripcionContra.Size = new System.Drawing.Size(111, 15);
+            this.lblDescripcionContra.TabIndex = 16;
+            this.lblDescripcionContra.Text = "6 o mas caracteres";
+            // 
+            // lblErrorNumero
+            // 
+            this.lblErrorNumero.AutoSize = true;
+            this.lblErrorNumero.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorNumero.Location = new System.Drawing.Point(109, 262);
+            this.lblErrorNumero.Name = "lblErrorNumero";
+            this.lblErrorNumero.Size = new System.Drawing.Size(98, 13);
+            this.lblErrorNumero.TabIndex = 17;
+            this.lblErrorNumero.Text = "*Numero incorrecto";
+            this.lblErrorNumero.Visible = false;
+            this.lblErrorNumero.Click += new System.EventHandler(this.lblErrorNumero_Click);
+            // 
+            // lblErrorContraseña
+            // 
+            this.lblErrorContraseña.AutoSize = true;
+            this.lblErrorContraseña.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorContraseña.Location = new System.Drawing.Point(37, 215);
+            this.lblErrorContraseña.Name = "lblErrorContraseña";
+            this.lblErrorContraseña.Size = new System.Drawing.Size(115, 13);
+            this.lblErrorContraseña.TabIndex = 18;
+            this.lblErrorContraseña.Text = "*Contraseña incorrecta";
+            this.lblErrorContraseña.Visible = false;
+            this.lblErrorContraseña.Click += new System.EventHandler(this.lblErrorContraseña_Click);
+            // 
+            // lblErrorDireccion
+            // 
+            this.lblErrorDireccion.AutoSize = true;
+            this.lblErrorDireccion.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorDireccion.Location = new System.Drawing.Point(37, 138);
+            this.lblErrorDireccion.Name = "lblErrorDireccion";
+            this.lblErrorDireccion.Size = new System.Drawing.Size(106, 13);
+            this.lblErrorDireccion.TabIndex = 19;
+            this.lblErrorDireccion.Text = "*Direccion incorrecta";
+            this.lblErrorDireccion.Visible = false;
+            this.lblErrorDireccion.Click += new System.EventHandler(this.lblErrorDireccion_Click);
+            // 
+            // lblErrorNombre
+            // 
+            this.lblErrorNombre.AutoSize = true;
+            this.lblErrorNombre.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorNombre.Location = new System.Drawing.Point(36, 91);
+            this.lblErrorNombre.Name = "lblErrorNombre";
+            this.lblErrorNombre.Size = new System.Drawing.Size(98, 13);
+            this.lblErrorNombre.TabIndex = 20;
+            this.lblErrorNombre.Text = "*Nombre incorrecto";
+            this.lblErrorNombre.Visible = false;
+            this.lblErrorNombre.Click += new System.EventHandler(this.lblErrorNombre_Click);
+            // 
+            // lblErrorApellido
+            // 
+            this.lblErrorApellido.AutoSize = true;
+            this.lblErrorApellido.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorApellido.Location = new System.Drawing.Point(209, 89);
+            this.lblErrorApellido.Name = "lblErrorApellido";
+            this.lblErrorApellido.Size = new System.Drawing.Size(98, 13);
+            this.lblErrorApellido.TabIndex = 21;
+            this.lblErrorApellido.Text = "*Apellido incorrecto";
+            this.lblErrorApellido.Visible = false;
+            this.lblErrorApellido.Click += new System.EventHandler(this.lblErrorApellido_Click);
             // 
             // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(346, 421);
+            this.Controls.Add(this.lblErrorApellido);
+            this.Controls.Add(this.lblErrorNombre);
+            this.Controls.Add(this.lblErrorDireccion);
+            this.Controls.Add(this.lblErrorContraseña);
+            this.Controls.Add(this.lblErrorNumero);
+            this.Controls.Add(this.lblDescripcionContra);
             this.Controls.Add(this.grbSexo);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.lblNumero);
@@ -352,6 +434,12 @@ namespace Clase_6
     private System.Windows.Forms.RadioButton rdbOtros;
     private System.Windows.Forms.RadioButton rdbMasculino;
     private System.Windows.Forms.RadioButton rdbFemenino;
+    private System.Windows.Forms.Label lblDescripcionContra;
+    private System.Windows.Forms.Label lblErrorNumero;
+    private System.Windows.Forms.Label lblErrorContraseña;
+    private System.Windows.Forms.Label lblErrorDireccion;
+    private System.Windows.Forms.Label lblErrorNombre;
+    private System.Windows.Forms.Label lblErrorApellido;
   }
 }
 
