@@ -1,0 +1,2 @@
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_19\obj\Debug\Ejercicio_19.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\EjerciciosGuia\Ejercicio_19\obj\Debug\Ejercicio_19.csproj.CoreCompileInputs.cache

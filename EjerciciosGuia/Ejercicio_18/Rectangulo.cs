@@ -19,8 +19,6 @@ namespace Ejercicio_18
     {
       this.vertice1 = new Punto(vertice1.GetX(), vertice1.GetY());
       this.vertice3 = new Punto(vertice3.GetX(), vertice3.GetY());
-      this.vertice2 = new Punto;
-      this.vertice4 = new Punto()
     }
 
     public float Area()
