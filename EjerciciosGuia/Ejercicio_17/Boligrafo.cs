@@ -8,14 +8,25 @@ namespace Ejercicio_17_2
 {
     class Boligrafo
     {
-        private ConsoleColor color = new ConsoleColor();
+        private ConsoleColor color;
         private short tinta;
         const short cantidadTintMaxima = 100;
 
         public Boligrafo(short tinta, ConsoleColor color)
         {
             this.color = color;
-            this.tinta = tinta;
+            if (tinta <= 100)
+            {
+                this.tinta = tinta;
+            }
+            else if (tinta > 100)
+            {
+                this.tinta = 100;
+            }
+            else
+            {
+                this.tinta = 0;
+            }
         }
 
         public short getTinta()
@@ -31,18 +42,29 @@ namespace Ejercicio_17_2
         public bool Pintar(int gasto, out string dibujo)
         {
             dibujo = "";
+            bool retorno = false;
 
-            if (this.tinta > 0)
+            if (this.tinta >= gasto)
             {
-                SetTinta((short)gasto);
-                for (int i = 0; i <= gasto; i++)
+                for (int i = 1; i <= Math.Abs(gasto); i++)
                 {
                     dibujo += "*";
                 }
-                return true;
+                Console.ForegroundColor = this.color;
+                SetTinta((short)-gasto);
+                //if (this.tinta < 0)
+                //{
+                //    dibujo = "No se pudo pintar";
+                //}
+                retorno = true;
             }
-            else
-                return false;
+            else Console.ForegroundColor = ConsoleColor.White;
+            //else
+            //{
+            //    retorno = true;
+            //    dibujo = "No se pudo pintar";
+            //}
+            return retorno;
         }
 
         public void Recargar()
@@ -54,25 +76,17 @@ namespace Ejercicio_17_2
         {
             short auxTinta = this.tinta;
 
-            while (tinta >= -100 && tinta <= 100)
+            if (tinta >= -100 && tinta <= 100)
             {
-                if (tinta > 0)
+                if (this.tinta >= 0 && this.tinta <= cantidadTintMaxima)
                 {
-                    if (auxTinta + tinta <= 100)
+                    if (tinta < 0)
                     {
                         this.tinta += tinta;
                     }
-
-                    if (tinta == cantidadTintMaxima)
+                    else
                     {
-                        this.tinta = cantidadTintMaxima;
-                    }
-                }
-                else
-                {
-                    if (auxTinta - tinta >= 0)
-                    {
-                        this.tinta -= tinta;
+                        this.tinta += tinta;
                     }
                 }
             }
