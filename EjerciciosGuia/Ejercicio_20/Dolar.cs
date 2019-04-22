@@ -16,7 +16,7 @@ namespace Billetes
     #region CONSTRUCTORES
     static Dolar()
     {
-
+            cotizRespectoDolar = 1;
     }
 
     public Dolar(double cantidad)

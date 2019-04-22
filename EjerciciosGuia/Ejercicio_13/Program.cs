@@ -17,6 +17,7 @@ namespace Ejercicio_13
             double numeroEnDecimal;
             string numeroEnBinario;
 
+
             Console.Write("Ingrese numero decimal: ");
             numeroDecimal = double.Parse(Console.ReadLine());
 
@@ -33,7 +34,6 @@ namespace Ejercicio_13
             numeroEnDecimal = Conversor.BinarioDecimal(numeroBinario);
 
             Console.WriteLine("El numero binario en decimal es: {0}", numeroEnDecimal);
-
             Console.ReadKey();
         }
     }

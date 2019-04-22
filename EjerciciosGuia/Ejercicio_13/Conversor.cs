@@ -31,20 +31,26 @@ namespace Ejercicio_13
 
         public static double BinarioDecimal(string binario)
         {
-            double numero = 0;
+            double numero = -1;
+            long numeroBinario;
 
-            if (long.Parse(binario) > 0)
+            if (long.TryParse(binario, out numeroBinario))
             {
-                for (int i = 1; i <= binario.Length; i++)
+                if (numeroBinario > 0)
                 {
-                    if (binario.ElementAt(i - 1) == '1')
+                    numero = 0;
+                    for (int i = 1; i <= binario.Length; i++)
                     {
-                        numero += Math.Pow(2, binario.Length - i);
+                        if (binario.ElementAt(i - 1) == '1')
+                        {
+                            numero += Math.Pow(2, binario.Length - i);
+                        }
                     }
+                    return numero;
                 }
-                return numero;
+                else return numero;
             }
-            else return -1;
+            else return numero;
         }
     }
 }
