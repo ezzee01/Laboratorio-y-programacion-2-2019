@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_31
+namespace Ejercicio_31Consola
 {
   class Negocio
   {

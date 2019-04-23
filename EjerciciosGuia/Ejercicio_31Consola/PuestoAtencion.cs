@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Ejercicio_31
+namespace Ejercicio_31Consola
 {
   class PuestoAtencion
   {
