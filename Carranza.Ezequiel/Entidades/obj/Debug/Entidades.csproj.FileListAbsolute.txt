@@ -1,0 +1,5 @@
+D:\VisualStudio\Carranza.Ezequiel\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Carranza.Ezequiel\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Carranza.Ezequiel\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Carranza.Ezequiel\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Carranza.Ezequiel\Entidades\obj\Debug\Entidades.pdb
