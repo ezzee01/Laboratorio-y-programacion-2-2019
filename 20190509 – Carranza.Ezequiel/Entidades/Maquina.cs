@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -59,8 +59,7 @@ namespace Entidades
             get
             {
                 StringBuilder sb = new StringBuilder();
-                sb.AppendFormat("Nombre: {0}\n", this.nombre);
-                sb.AppendFormat("Cantidad perifericos: {0}\n", this.cantidadMaxPerifericos);
+                sb.AppendLine(this.nombre);
                 foreach(Periferico p in this.perifericos)
                 {
                     sb.AppendLine(p.ExponerDatos());

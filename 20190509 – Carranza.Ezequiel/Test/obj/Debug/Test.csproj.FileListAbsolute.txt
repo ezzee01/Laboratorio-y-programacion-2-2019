@@ -8,3 +8,13 @@ D:\VisualStudio\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.csproj.CoreCo
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.csproj.CopyComplete
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.exe
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\bin\Debug\Test.exe.config
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\bin\Debug\Test.exe
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.exe
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Test\obj\Debug\Test.pdb

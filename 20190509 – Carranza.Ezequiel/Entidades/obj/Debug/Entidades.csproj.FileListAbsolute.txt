@@ -4,3 +4,9 @@ D:\VisualStudio\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.csp
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.dll
 D:\VisualStudio\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Laboratorio-y-programacion-2-2019\20190509 – Carranza.Ezequiel\Entidades\obj\Debug\Entidades.pdb
