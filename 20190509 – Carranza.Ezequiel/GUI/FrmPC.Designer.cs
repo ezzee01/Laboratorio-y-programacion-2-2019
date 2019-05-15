@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-  partial class Form1
+  partial class FrmPC
   {
     /// <summary>
     /// Variable del diseñador necesaria.
@@ -33,9 +33,9 @@
             this.lblMemoria = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nudMemoria = new System.Windows.Forms.NumericUpDown();
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.txtModelo = new System.Windows.Forms.TextBox();
-            this.nudMemoria = new System.Windows.Forms.NumericUpDown();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnSacar = new System.Windows.Forms.Button();
             this.btnSystemInfo = new System.Windows.Forms.Button();
@@ -77,6 +77,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(275, 213);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // groupBox1
             // 
@@ -93,12 +94,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Placa de Video";
             // 
+            // nudMemoria
+            // 
+            this.nudMemoria.Location = new System.Drawing.Point(85, 71);
+            this.nudMemoria.Name = "nudMemoria";
+            this.nudMemoria.Size = new System.Drawing.Size(184, 20);
+            this.nudMemoria.TabIndex = 7;
+            this.nudMemoria.ValueChanged += new System.EventHandler(this.nudMemoria_ValueChanged);
+            // 
             // txtMarca
             // 
             this.txtMarca.Location = new System.Drawing.Point(85, 18);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(184, 20);
             this.txtMarca.TabIndex = 5;
+            this.txtMarca.TextChanged += new System.EventHandler(this.txtMarca_TextChanged);
             // 
             // txtModelo
             // 
@@ -106,13 +116,7 @@
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(184, 20);
             this.txtModelo.TabIndex = 6;
-            // 
-            // nudMemoria
-            // 
-            this.nudMemoria.Location = new System.Drawing.Point(85, 71);
-            this.nudMemoria.Name = "nudMemoria";
-            this.nudMemoria.Size = new System.Drawing.Size(184, 20);
-            this.nudMemoria.TabIndex = 7;
+            this.txtModelo.TextChanged += new System.EventHandler(this.txtModelo_TextChanged);
             // 
             // btnAgregar
             // 
@@ -122,6 +126,7 @@
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnSacar
             // 
@@ -131,6 +136,7 @@
             this.btnSacar.TabIndex = 6;
             this.btnSacar.Text = "Sacar";
             this.btnSacar.UseVisualStyleBackColor = true;
+            this.btnSacar.Click += new System.EventHandler(this.btnSacar_Click);
             // 
             // btnSystemInfo
             // 
@@ -140,8 +146,9 @@
             this.btnSystemInfo.TabIndex = 7;
             this.btnSystemInfo.Text = "System Info";
             this.btnSystemInfo.UseVisualStyleBackColor = true;
+            this.btnSystemInfo.Click += new System.EventHandler(this.btnSystemInfo_Click);
             // 
-            // Form1
+            // FrmPC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,8 +158,9 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.richTextBox1);
-            this.Name = "Form1";
+            this.Name = "FrmPC";
             this.Text = "Carranza.Ezequiel.2D";
+            this.Load += new System.EventHandler(this.FrmPC_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMemoria)).EndInit();

@@ -36,7 +36,6 @@ namespace Entidades
       StringBuilder sb = new StringBuilder();
       sb.Append(string.Format(" " + p.marca + " " + p.modelo + " <Puerto: {0}>", p.conector.ToString()));
       
-
       return sb.ToString();
     }
 
