@@ -104,19 +104,30 @@ namespace Entidades
     public static string operator -(Maquina m, Periferico p)
     {
       string retorno = "No se puede desconectar el dispositivo.";
-      
-      if (m == p)
+
+      //if (m == p)
+      //{
+      //  for(int i = 0; i <= m.CantidadMaximaPerifericos; i++)
+      //  {
+      //    if (p == m.perifericos.ElementAt(i))
+      //    {
+      //      m.perifericos.RemoveAt(i);
+      //      break;
+      //    }
+      //  }
+      //  retorno = "Periferico desconectado!";
+      //}
+
+      foreach (Periferico v in m.perifericos)
       {
-        for(int i = 0; i <= m.CantidadMaximaPerifericos; i++)
+        if (v == p) //verifica si está en la lista y lo elimina
         {
-          if (p == m.perifericos.ElementAt(i))
-          {
-            m.perifericos.RemoveAt(i);
-            break;
-          }
+          m.perifericos.Remove(v);
+          retorno = "Dispositivo desconectado!";
+          break;
         }
-        retorno = "Periferico desconectado!";
       }
+      
       return retorno;
     }
     #endregion
