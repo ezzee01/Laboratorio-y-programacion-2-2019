@@ -24,8 +24,8 @@ namespace ComiqueriaLogic
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine(base.ToString());
-      sb.AppendFormat("Autor: {0}", this.autor);
-      sb.AppendFormat("Tipo: {0}", this.tipoComic);
+      sb.AppendFormat("Autor: {0}\n", this.autor);
+      sb.AppendFormat("Tipo: {0}\n", this.tipoComic);
 
       return sb.ToString();
     }

@@ -52,10 +52,10 @@ namespace ComiqueriaLogic
     {
       StringBuilder sb = new StringBuilder();
 
-      sb.AppendFormat("Descripción: {0}", this.descripcion);
-      sb.AppendFormat("Código: {0}", this.codigo);
-      sb.AppendFormat("Precio: ${0}", this.precio);
-      sb.AppendFormat("Stock: {0} unidades", this.stock);
+      sb.AppendFormat("Descripción: {0}\n", this.descripcion);
+      sb.AppendFormat("Código: {0}\n", this.codigo);
+      sb.AppendFormat("Precio: ${0}\n", this.precio);
+      sb.AppendFormat("Stock: {0} unidades\n", this.stock);
       return sb.ToString();
     }
   }
