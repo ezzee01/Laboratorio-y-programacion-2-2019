@@ -1,0 +1,14 @@
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmLista.exe.config
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmLista.exe
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmLista.pdb
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.csprojAssemblyReference.cache
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.FrmLista.resources
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.Properties.Resources.resources
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.csproj.GenerateResource.cache
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.csproj.CoreCompileInputs.cache
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.exe
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.pdb
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmPersona.exe
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmPersona.pdb
+D:\VisualStudio\FrmLista\FrmLista\bin\Debug\FrmPersona.exe.config
+D:\VisualStudio\FrmLista\FrmLista\obj\Debug\FrmLista.csproj.CopyComplete

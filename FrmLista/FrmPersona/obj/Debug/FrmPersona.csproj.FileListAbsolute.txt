@@ -1,0 +1,10 @@
+D:\VisualStudio\FrmLista\FrmPersona\bin\Debug\FrmPersona.exe.config
+D:\VisualStudio\FrmLista\FrmPersona\bin\Debug\FrmPersona.exe
+D:\VisualStudio\FrmLista\FrmPersona\bin\Debug\FrmPersona.pdb
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.FrmPersona.resources
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.Properties.Resources.resources
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.csproj.GenerateResource.cache
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.csproj.CoreCompileInputs.cache
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.exe
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.pdb
+D:\VisualStudio\FrmLista\FrmPersona\obj\Debug\FrmPersona.csprojAssemblyReference.cache
