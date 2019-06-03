@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio\\20190528-[Carranza].[Ezequiel]\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Laboratorio-y-programacion-2-2019\\20190528-[Carranza].[Ezequiel]\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "D:\\VisualStudio\\20190528-[Carranza].[Ezequiel]\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Laboratorio-y-programacion-2-2019\\20190528-[Carranza].[Ezequiel]\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio\\20190528-[Carranza].[Ezequiel]\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Laboratorio-y-programacion-2-2019\\20190528-[Carranza].[Ezequiel]\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
